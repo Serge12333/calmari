@@ -192,7 +192,8 @@
   .sidenav {
     display: block;
     height: 100%;
-    width: 0;
+    transform: translate(-100%, 0);
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -207,7 +208,7 @@
   }
 
   .active {
-    width: 100%;
+    transform: translate(0px, 0px)
   }
 
   .sidenav a {
